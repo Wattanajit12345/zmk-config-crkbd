@@ -59,9 +59,9 @@
             label = "Raise";
             bindings = <
   &trans                &trans    &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB        &kp LESS_THAN             &kp GREATER_THAN  &trans         &trans
-  &kp NON_US_BACKSLASH  &kp LEFT  &kp DOWN      &kp RIGHT         &mkp LCLK            &kp SEMICOLON  &kp SQT                   &kp MINUS         &kp GRAVE      &kp LG(F5)
-  &trans                &trans    &trans        &kp LGUI          &trans               &bootloader    &kp LS(LC(LEFT_CONTROL))  &kp F5            &kp LC(ENTER)  &kp LC(K)
-                                  &trans        &to 4             &to 5                &trans         &trans                    &trans
+  &kp NON_US_BACKSLASH  &kp LEFT  &kp DOWN      &kp RIGHT         &mkp LCLK            &kp SEMICOLON  &kp SQT                   &kp MINUS         &kp GRAVE      &trans
+  &trans                &trans    &trans        &kp LGUI          &trans               &kp LG(F5)     &kp LS(LC(LEFT_CONTROL))  &kp F5            &kp LC(ENTER)  &kp LC(K)
+                                  &trans        &to 4             &trans               &trans         &to 5                     &trans
             >;
         };
 
@@ -76,10 +76,10 @@
 
         layer_4 {
             bindings = <
-  &kp BACKSPACE  &trans     &trans     &trans            &trans    &kp LC(DOWN)  &kp LG(UP_ARROW)    &kp LC(LEFT_BRACE)    &kp LC(RIGHT_BRACE)  &trans
-  &kp LG(A)      &trans     &trans     &kp LEFT_SHIFT    &trans    &trans        &trans              &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &trans
-  &kp LG(C)      &kp LG(V)  &kp LG(X)  &kp LEFT_CONTROL  &trans    &trans        &trans              &trans                &trans               &trans
-                            &trans     &trans            &trans    &trans        &kp LC(LEFT_SHIFT)  &kp LS(LEFT_CONTROL)
+  &kp BACKSPACE  &kp LG(LEFT)  &kp LG(RIGHT)  &trans            &trans    &kp LC(DOWN)  &kp LG(UP_ARROW)    &kp LC(LEFT_BRACE)    &kp LC(RIGHT_BRACE)  &trans
+  &kp LG(A)      &trans        &trans         &kp LEFT_SHIFT    &trans    &trans        &trans              &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &trans
+  &kp LG(C)      &kp LG(V)     &kp LG(X)      &kp LEFT_CONTROL  &trans    &trans        &trans              &trans                &trans               &trans
+                               &trans         &trans            &trans    &trans        &kp LC(LEFT_SHIFT)  &kp LS(LEFT_CONTROL)
             >;
         };
 
