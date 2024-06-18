@@ -61,7 +61,7 @@
   &trans                &trans    &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB        &kp LESS_THAN  &kp GREATER_THAN  &trans         &trans
   &kp NON_US_BACKSLASH  &kp LEFT  &kp DOWN      &kp RIGHT         &mkp LCLK            &kp SEMICOLON  &kp SQT        &kp MINUS         &kp GRAVE      &trans
   &trans                &trans    &trans        &kp LGUI          &trans               &trans         &trans         &trans            &kp LC(ENTER)  &kp LC(K)
-                                  &trans        &trans            &trans               &trans         &tog 5         &trans
+                                  &trans        &kp LG(LSHFT)     &trans               &trans         &tog 5         &trans
             >;
         };
 
