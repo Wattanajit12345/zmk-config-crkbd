@@ -76,10 +76,10 @@
 
         layer_4 {
             bindings = <
-  &kp BACKSPACE  &kp LC(LEFT)  &kp LC(RIGHT)  &trans            &trans    &kp LC(DOWN)  &kp LG(UP_ARROW)    &kp LC(LEFT_BRACE)    &kp LC(RIGHT_BRACE)  &trans
-  &kp LG(A)      &trans        &trans         &kp LEFT_SHIFT    &trans    &trans        &trans              &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &trans
-  &kp LG(C)      &kp LG(V)     &kp LG(X)      &kp LEFT_CONTROL  &trans    &trans        &trans              &trans                &trans               &trans
-                               &trans         &trans            &trans    &trans        &kp LG(LEFT_SHIFT)  &kp LS(LEFT_COMMAND)
+  &kp BACKSPACE  &kp LC(LEFT)  &kp LC(RIGHT)  &trans            &trans    &kp LG(DOWN)  &kp LC(UP_ARROW)    &trans            &trans             &trans
+  &kp LG(A)      &trans        &trans         &kp LEFT_SHIFT    &trans    &trans        &trans              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+  &kp LG(C)      &kp LG(V)     &kp LG(X)      &kp LEFT_CONTROL  &trans    &trans        &trans              &trans            &trans             &trans
+                               &trans         &trans            &trans    &trans        &kp LG(LEFT_SHIFT)  &trans
             >;
         };
 
