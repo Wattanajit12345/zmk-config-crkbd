@@ -67,10 +67,10 @@
 
         layer_3 {
             bindings = <
-  &reset  &reset    &reset                    &reset      &reset    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp LEFT  &kp DOWN                  &kp RIGHT   &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans    &kp LS(LC(LEFT_CONTROL))  &kp LG(F5)  &kp F5    &trans  &trans  &trans  &trans  &trans
-                    &trans                    &trans      &trans    &trans  &trans  &trans
+  &reset  &reset  &reset                    &reset      &reset    &trans  &trans  &trans  &trans  &trans
+  &trans  &reset  &sys_reset                &kp RIGHT   &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &kp LS(LC(LEFT_CONTROL))  &kp LG(F5)  &kp F5    &trans  &trans  &trans  &trans  &trans
+                  &trans                    &trans      &trans    &trans  &trans  &trans
             >;
         };
 
