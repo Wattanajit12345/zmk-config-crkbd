@@ -60,14 +60,14 @@
             bindings = <
   &trans                &trans  &reset  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB        &kp LESS_THAN  &kp GREATER_THAN  &trans         &trans
   &kp NON_US_BACKSLASH  &reset  &reset  &reset            &mkp LCLK            &kp SEMICOLON  &kp SQT        &kp MINUS         &kp GRAVE      &trans
-  &trans                &trans  &trans  &kp LGUI          &trans               &trans         &trans         &trans            &kp LC(ENTER)  &kp LC(K)
+  &trans                &reset  &trans  &kp LGUI          &trans               &trans         &trans         &trans            &kp LC(ENTER)  &kp LC(K)
                                 &trans  &kp LG(LSHFT)     &trans               &trans         &tog 5         &trans
             >;
         };
 
         layer_3 {
             bindings = <
-  &reset  &reset    &kp UP_ARROW              &reset      &reset    &trans  &trans  &trans  &trans  &trans
+  &reset  &reset    &reset                    &reset      &reset    &trans  &trans  &trans  &trans  &trans
   &trans  &kp LEFT  &kp DOWN                  &kp RIGHT   &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans    &kp LS(LC(LEFT_CONTROL))  &kp LG(F5)  &kp F5    &trans  &trans  &trans  &trans  &trans
                     &trans                    &trans      &trans    &trans  &trans  &trans
