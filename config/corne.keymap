@@ -67,10 +67,10 @@
 
         layer_3 {
             bindings = <
-  &trans  &trans    &kp UP_ARROW              &trans      &trans    &trans  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-  &trans  &kp LEFT  &kp DOWN                  &kp RIGHT   &trans    &trans  &trans  &trans            &trans             &trans
-  &trans  &trans    &kp LS(LC(LEFT_CONTROL))  &kp LG(F5)  &kp F5    &trans  &trans  &trans            &trans             &sys_reset
-                    &trans                    &trans      &trans    &trans  &trans  &trans
+  &sys_reset  &trans    &kp UP_ARROW              &trans      &trans    &trans  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+  &trans      &kp LEFT  &kp DOWN                  &kp RIGHT   &trans    &trans  &trans  &trans            &trans             &trans
+  &trans      &trans    &kp LS(LC(LEFT_CONTROL))  &kp LG(F5)  &kp F5    &trans  &trans  &trans            &trans             &trans
+                        &trans                    &trans      &trans    &trans  &trans  &trans
             >;
         };
 
