@@ -43,7 +43,7 @@
             label = "Lower";
             bindings = <
   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_ALT  &kp LEFT_BRACE     &kp RIGHT_BRACE    &kp PLUS      &kp N7        &kp N8        &kp N9        &kp EQUAL
-  &kp AMPERSAND         &kp UNDERSCORE         &kp SPACE     &kp DOUBLE_QUOTES  &kp COLON          &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
+  &kp AMPERSAND         &kp SEMICOLON          &kp SPACE     &kp DOUBLE_QUOTES  &kp COLON          &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
   &kp EXCLAMATION       &kp AT_SIGN            &kp HASH      &kp DOLLAR         &kp LC(R)          &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
                                                &kp PERCENT   &sl 6              &trans             &kp ENTER     &kp PERIOD    &kp SQT
             >;
@@ -58,10 +58,10 @@
 
             label = "Raise";
             bindings = <
-  &trans         &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB        &kp LESS_THAN  &kp GREATER_THAN  &trans         &trans
-  &kp BACKSLASH  &trans  &trans  &trans            &mkp LCLK            &kp SEMICOLON  &kp SQT        &kp MINUS         &kp GRAVE      &trans
-  &trans         &trans  &trans  &kp LGUI          &trans               &trans         &trans         &trans            &kp LC(ENTER)  &kp LC(K)
-                         &trans  &kp LG(LSHFT)     &trans               &trans         &sl 5          &trans
+  &trans         &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB         &kp LESS_THAN  &kp GREATER_THAN  &trans         &trans
+  &kp BACKSLASH  &trans  &trans  &trans            &mkp LCLK            &kp UNDERSCORE  &kp SQT        &kp MINUS         &kp GRAVE      &trans
+  &trans         &trans  &trans  &kp LGUI          &trans               &trans          &trans         &trans            &kp LC(ENTER)  &kp LC(K)
+                         &trans  &kp LG(LSHFT)     &trans               &trans          &sl 5          &trans
             >;
         };
 
