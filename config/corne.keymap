@@ -58,7 +58,7 @@
 
             label = "Raise";
             bindings = <
-  &trans         &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB         &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans
+  &trans         &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB         &kp LESS_THAN  &kp GREATER_THAN  &trans     &kp LG(F)
   &kp BACKSLASH  &trans  &trans  &trans            &mkp LCLK            &kp UNDERSCORE  &kp SQT        &kp MINUS         &kp GRAVE  &trans
   &trans         &trans  &trans  &trans            &trans               &trans          &trans         &trans            &trans     &kp RIGHT_COMMAND
                          &trans  &kp LG(LSHFT)     &trans               &trans          &sl 5          &trans
