@@ -58,10 +58,10 @@
 
             label = "Raise";
             bindings = <
-  &trans         &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TAB         &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans
-  &kp BACKSLASH  &trans  &trans  &trans            &mkp LCLK            &kp UNDERSCORE  &kp SQT        &kp MINUS         &kp GRAVE  &kp LG(F)
-  &trans         &trans  &trans  &trans            &trans               &trans          &trans         &trans            &trans     &kp RIGHT_COMMAND
-                         &trans  &kp LG(LSHFT)     &trans               &trans          &sl 5          &trans
+  &trans         &trans  &trans  &trans  &trans       &kp TAB           &kp LESS_THAN      &kp GREATER_THAN    &trans     &trans
+  &kp BACKSLASH  &trans  &trans  &trans  &mkp LCLK    &kp UNDERSCORE    &kp SQT            &kp MINUS           &kp GRAVE  &kp LG(F)
+  &trans         &trans  &trans  &trans  &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LG(LEFT_SHIFT)  &trans     &kp RIGHT_COMMAND
+                         &trans  &trans  &trans       &trans            &sl 5              &trans
             >;
         };
 
@@ -94,10 +94,10 @@
 
         layer_6 {
             bindings = <
-  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
-  &trans                    &trans                     &trans  &trans  &sys_reset    &trans  &trans  &trans  &trans  &trans
-  &trans                    &trans                     &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
-                                                       &sl 7   &trans  &trans        &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &sys_reset    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+                  &sl 7   &trans  &trans        &trans  &trans  &trans
             >;
         };
 
