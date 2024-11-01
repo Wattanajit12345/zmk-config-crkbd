@@ -94,10 +94,10 @@
 
         layer_6 {
             bindings = <
-  &bt BT_CLR  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans        &trans  &trans  &trans  &trans  &trans
-  &trans      &trans        &trans        &trans  &sys_reset    &trans  &trans  &trans  &trans  &trans
-  &trans      &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans
-                            &sl 7         &trans  &sl 8         &trans  &trans  &trans
+  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans        &trans  &trans  &trans  &trans  &bt BT_CLR
+  &trans        &trans        &trans        &trans  &sys_reset    &trans  &trans  &trans  &trans  &trans
+  &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans
+                              &sl 7         &trans  &sl 8         &trans  &trans  &trans
             >;
         };
 
