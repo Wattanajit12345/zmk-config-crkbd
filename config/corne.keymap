@@ -59,7 +59,7 @@
             label = "Raise";
             bindings = <
   &trans  &trans  &trans  &trans  &trans       &kp TAB  &none    &none               &trans  &trans
-  &none   &trans  &trans  &trans  &mkp RCLK    &none    &kp SQT  &none               &none   &kp LG(F)
+  &none   &trans  &trans  &trans  &mkp LCLK    &none    &kp SQT  &none               &none   &kp LG(F)
   &trans  &trans  &trans  &trans  &trans       &none    &none    &kp LG(LEFT_SHIFT)  &trans  &none
                   &trans  &trans  &trans       &trans   &sl 5    &trans
             >;
@@ -67,10 +67,10 @@
 
         layer_3 {
             bindings = <
-  &kp LC(LS(TAB))  &kp LC(TAB)       &kp LC(LEFT)  &kp LC(RIGHT)  &trans    &trans  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
-  &kp LG(DOWN)     &kp LC(UP_ARROW)  &none         &none          &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
-  &trans           &trans            &none         &none          &none     &trans  &none     &none         &none      &kp LS(ENTER)
-                                     &trans        &trans         &trans    &trans  &trans    &trans
+  &kp LC(LS(TAB))  &kp LC(TAB)       &kp LC(LEFT)  &kp LC(RIGHT)    &trans               &trans  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
+  &kp LG(DOWN)     &kp LC(UP_ARROW)  &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
+  &trans           &trans            &none         &none            &none                &trans  &none     &none         &none      &kp LS(ENTER)
+                                     &trans        &trans           &trans               &trans  &trans    &trans
             >;
         };
 
