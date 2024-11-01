@@ -58,27 +58,27 @@
 
             label = "Raise";
             bindings = <
-  &trans         &trans  &trans  &trans  &trans       &kp TAB           &kp LESS_THAN      &kp GREATER_THAN    &trans     &trans
-  &kp BACKSLASH  &trans  &trans  &trans  &mkp LCLK    &kp UNDERSCORE    &kp SQT            &kp MINUS           &kp GRAVE  &kp LG(F)
-  &trans         &trans  &trans  &trans  &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LG(LEFT_SHIFT)  &trans     &kp RIGHT_COMMAND
-                         &trans  &trans  &trans       &trans            &sl 5              &trans
+  &trans  &trans  &trans  &trans  &trans       &kp TAB  &kp LESS_THAN  &kp GREATER_THAN    &trans  &trans
+  &none   &trans  &trans  &trans  &mkp RCLK    &none    &kp SQT        &none               &none   &kp LG(F)
+  &trans  &trans  &trans  &trans  &trans       &none    &none          &kp LG(LEFT_SHIFT)  &trans  &none
+                  &trans  &trans  &trans       &trans   &sl 5          &trans
             >;
         };
 
         layer_3 {
             bindings = <
-  &trans  &trans  &none   &trans  &trans    &trans  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
-  &trans  &none   &none   &none   &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
-  &trans  &trans  &none   &none   &none     &trans  &kp N1    &kp N2        &kp N3     &kp N0
-                  &trans  &trans  &trans    &trans  &trans    &trans
+  &kp LC(TAB)  &kp LC(LS(TAB))  &none   &trans  &trans    &trans  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
+  &trans       &none            &none   &none   &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
+  &trans       &trans           &none   &none   &none     &trans  &none     &none         &none      &kp LS(ENTER)
+                                &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
         layer_4 {
             bindings = <
-  &kp BACKSPACE  &kp LC(C)  &kp LC(V)  &kp LC(X)       &kp LEFT_ALT    &kp PLUS      &kp N7  &kp N8  &kp N9  &kp BSPC
-  &kp LC(A)      &trans     &trans     &kp LEFT_SHIFT  &kp LC(Z)       &kp MINUS     &kp N4  &kp N5  &kp N6  &kp LGUI
-  &kp LCTRL      &kp LCTRL  &kp LCTRL  &kp LCTRL       &kp LCTRL       &kp ASTERISK  &kp N1  &kp N2  &kp N3  &kp N0
+  &kp BACKSPACE  &kp LG(C)  &kp LG(V)  &kp LG(X)       &kp LEFT_ALT    &kp PLUS      &kp N7  &kp N8  &kp N9  &kp BSPC
+  &kp LG(A)      &trans     &none      &kp LEFT_SHIFT  &kp LG(Z)       &kp MINUS     &kp N4  &kp N5  &kp N6  &kp ENTER
+  &kp LCTRL      &none      &none      &none           &none           &kp ASTERISK  &kp N1  &kp N2  &kp N3  &kp N0
                             &trans     &trans          &trans          &kp Z         &trans  &trans
             >;
         };
