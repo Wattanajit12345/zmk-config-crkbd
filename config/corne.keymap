@@ -67,10 +67,10 @@
 
         layer_3 {
             bindings = <
-  &kp LC(LS(TAB))  &kp LC(TAB)  &none   &trans  &trans    &trans  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
-  &trans           &none        &none   &none   &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
-  &trans           &trans       &none   &none   &none     &trans  &none     &none         &none      &kp LS(ENTER)
-                                &trans  &trans  &trans    &trans  &trans    &trans
+  &kp LC(LS(TAB))  &kp LC(TAB)       &kp LC(LEFT)  &kp LC(RIGHT)  &trans    &trans  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
+  &kp LG(DOWN)     &kp LC(UP_ARROW)  &none         &none          &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
+  &trans           &trans            &none         &none          &none     &trans  &none     &none         &none      &kp LS(ENTER)
+                                     &trans        &trans         &trans    &trans  &trans    &trans
             >;
         };
 
@@ -85,10 +85,10 @@
 
         layer_5 {
             bindings = <
-  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &kp LG(DOWN)  &kp LC(UP_ARROW)  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans              &trans         &trans        &trans            &trans    &trans  &trans  &trans  &trans  &trans
-  &trans              &trans         &trans        &trans            &trans    &trans  &trans  &trans  &trans  &trans
-                                     &trans        &trans            &trans    &trans  &trans  &trans
+  &none   &none   &none   &none   &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
