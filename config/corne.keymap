@@ -45,7 +45,7 @@
   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_ALT  &kp LEFT_BRACE     &kp RIGHT_BRACE    &kp PLUS      &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL
   &kp EXCLAMATION       &kp SEMICOLON          &kp SPACE     &kp DOUBLE_QUOTES  &kp COLON          &kp MINUS     &kp COMMA         &kp MINUS          &kp UNDERSCORE        &kp SLASH
   &kp AMPERSAND         &kp AT_SIGN            &kp HASH      &kp DOLLAR         &kp PERCENT        &kp ASTERISK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT               &kp N0
-                                               &kp PERCENT   &sl 6              &trans             &kp ENTER     &kp PERIOD        &kp SQT
+                                               &none         &sl 6              &trans             &none         &kp PERIOD        &kp SQT
             >;
         };
 
@@ -58,16 +58,16 @@
 
             label = "Raise";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans       &kp TAB  &none    &none               &trans  &trans
-  &none   &none   &none   &none   &mkp LCLK    &none    &kp SQT  &none               &none   &kp LG(F)
-  &trans  &trans  &none   &trans  &trans       &none    &none    &kp LG(LEFT_SHIFT)  &trans  &none
-                  &trans  &trans  &trans       &trans   &sl 5    &trans
+  &trans  &trans  &trans  &trans  &trans       &none   &none    &none               &trans  &trans
+  &none   &none   &none   &none   &mkp LCLK    &none   &kp SQT  &none               &none   &kp LG(F)
+  &trans  &trans  &none   &trans  &trans       &none   &none    &kp LG(LEFT_SHIFT)  &trans  &none
+                  &trans  &trans  &trans       &trans  &sl 5    &trans
             >;
         };
 
         layer_3 {
             bindings = <
-  &kp LC(LS(TAB))  &kp LC(TAB)       &kp LC(LEFT)  &kp LC(RIGHT)    &kp CLEAR2           &kp TAB  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
+  &kp LC(LS(TAB))  &kp LC(TAB)       &kp LC(LEFT)  &kp LC(RIGHT)    &none                &kp TAB  &kp F5    &kp UP_ARROW  &none      &kp BACKSPACE
   &kp LG(DOWN)     &kp LC(UP_ARROW)  &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN    &trans   &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
   &trans           &trans            &none         &none            &none                &trans   &none     &none         &none      &kp LS(ENTER)
                                      &trans        &trans           &trans               &trans   &trans    &trans
@@ -76,10 +76,10 @@
 
         layer_4 {
             bindings = <
-  &kp BACKSPACE  &kp LG(C)  &kp LG(V)       &kp LG(X)       &kp LEFT_ALT    &kp PLUS      &kp N7     &kp N8   &kp N9  &kp BSPC
-  &kp LG(A)      &trans     &mmv MOVE_UP    &kp LEFT_SHIFT  &kp LG(Z)       &kp MINUS     &kp N4     &kp N5   &kp N6  &kp ENTER
-  &kp LCTRL      &none      &mmv MOVE_DOWN  &none           &none           &kp ASTERISK  &kp N1     &kp N2   &kp N3  &kp N0
-                            &trans          &trans          &trans          &kp Z         &kp SPACE  &kp DOT
+  &kp BACKSPACE  &kp LG(C)  &kp LG(V)  &kp LG(X)       &kp LEFT_ALT    &kp PLUS      &kp N7     &kp N8   &kp N9  &kp BSPC
+  &kp LG(A)      &trans     &none      &kp LEFT_SHIFT  &kp LG(Z)       &kp MINUS     &kp N4     &kp N5   &kp N6  &kp ENTER
+  &kp LCTRL      &none      &none      &none           &none           &kp ASTERISK  &kp N1     &kp N2   &kp N3  &kp N0
+                            &trans     &trans          &trans          &kp Z         &kp SPACE  &kp DOT
             >;
         };
 
