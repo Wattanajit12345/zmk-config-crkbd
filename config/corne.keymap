@@ -42,10 +42,10 @@
 
             label = "Lower";
             bindings = <
-  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_ALT  &kp LEFT_BRACE     &kp RIGHT_BRACE    &kp PLUS      &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL
-  &kp EXCLAMATION       &kp SEMICOLON          &kp SPACE     &kp DOUBLE_QUOTES  &kp COLON          &kp MINUS     &kp COMMA         &kp MINUS          &kp UNDERSCORE        &kp SLASH
-  &kp AMPERSAND         &kp AT_SIGN            &kp HASH      &kp DOLLAR         &kp PERCENT        &kp ASTERISK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT               &kp N0
-                                               &none         &sl 6              &trans             &none         &kp PERIOD        &kp SQT
+  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS  &kp LEFT_BRACE     &kp RIGHT_BRACE    &none      &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH  &kp EQUAL
+  &kp EXCLAMATION       &kp SEMICOLON          &kp STAR  &kp DOUBLE_QUOTES  &kp COLON          &kp MINUS  &kp COMMA         &kp MINUS          &kp UNDERSCORE        &kp SLASH
+  &kp AMPERSAND         &kp AT_SIGN            &kp HASH  &kp DOLLAR         &kp PERCENT        &none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT               &none
+                                               &none     &sl 6              &trans             &none      &none             &none
             >;
         };
 
@@ -58,19 +58,19 @@
 
             label = "Raise";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans       &none   &none    &none               &trans  &trans
-  &none   &none   &none   &none   &mkp LCLK    &none   &kp SQT  &none               &none   &kp LG(F)
-  &trans  &trans  &none   &trans  &trans       &none   &none    &kp LG(LEFT_SHIFT)  &trans  &none
-                  &trans  &trans  &trans       &trans  &sl 5    &trans
+  &trans  &trans  &kp K_SCROLL_UP  &trans  &trans       &none   &none    &none               &trans  &trans
+  &none   &none   &none            &none   &mkp LCLK    &none   &kp SQT  &none               &none   &kp LG(F)
+  &trans  &trans  &none            &trans  &trans       &none   &none    &kp LG(LEFT_SHIFT)  &trans  &none
+                  &trans           &trans  &trans       &trans  &sl 5    &trans
             >;
         };
 
         layer_3 {
             bindings = <
-  &kp LC(LS(TAB))  &kp LC(TAB)       &kp LC(LEFT)  &kp LC(RIGHT)    &none                &none   &kp F5    &kp UP_ARROW  &kp TAB    &kp BACKSPACE
-  &kp LG(DOWN)     &kp LC(UP_ARROW)  &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
-  &trans           &trans            &none         &none            &none                &trans  &none     &none         &none      &kp LS(ENTER)
-                                     &trans        &trans           &trans               &trans  &trans    &trans
+  &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &kp LC(LEFT)  &kp LC(RIGHT)    &none                &none   &kp F5    &kp UP_ARROW  &kp TAB    &kp BACKSPACE
+  &kp LG(DOWN)      &kp LC(UP_ARROW)   &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER
+  &trans            &trans             &none         &none            &none                &trans  &none     &none         &none      &kp LS(ENTER)
+                                       &trans        &trans           &trans               &trans  &trans    &trans
             >;
         };
 
