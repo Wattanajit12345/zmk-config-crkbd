@@ -76,10 +76,10 @@
 
         layer_4 {
             bindings = <
-  &kp BACKSPACE  &kp LG(C)  &kp LG(V)  &kp LG(X)       &kp LEFT_ALT    &none      &none      &none    &none  &none
-  &kp LG(A)      &trans     &none      &kp LEFT_SHIFT  &kp LG(Z)       &none      &none      &none    &none  &none
-  &kp LCTRL      &none      &none      &none           &none           &none      &none      &none    &none  &none
-                            &trans     &trans          &trans          &kp COMMA  &kp SPACE  &kp DOT
+  &kp BACKSPACE  &kp LG(C)  &kp LG(V)  &kp LG(X)       &kp LEFT_ALT    &none  &none  &none  &none  &none
+  &kp LG(A)      &trans     &none      &kp LEFT_SHIFT  &kp LG(Z)       &none  &none  &none  &none  &none
+  &kp LCTRL      &none      &none      &none           &none           &none  &none  &none  &none  &none
+                            &trans     &trans          &trans          &none  &none  &none
             >;
         };
 
