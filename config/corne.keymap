@@ -42,10 +42,10 @@
 
             label = "Lower";
             bindings = <
-  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp LEFT_BRACE    &kp RIGHT_BRACE      &none  &kp LESS_THAN  &kp GREATER_THAN  &kp NON_US_BACKSLASH  &kp EQUAL
-  &kp EXCLAMATION       &kp SEMICOLON          &kp COLON          &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &none  &kp COMMA      &kp MINUS         &kp UNDERSCORE        &kp SLASH
-  &kp AMPERSAND         &kp AT_SIGN            &kp HASH           &kp DOLLAR        &kp PERCENT          &none  &kp PLUS       &kp ASTERISK      &kp DOT               &none
-                                               &none              &sl 6             &trans               &none  &none          &none
+  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp PLUS      &kp N7     &kp N8  &kp N9  &kp BSPC
+  &kp LCTRL             &kp LCTRL              &kp RIGHT_BRACKET  &kp SEMICOLON   &kp COLON          &kp MINUS     &kp N4     &kp N5  &kp N6  &kp DOT
+  &kp COMMA             &kp LESS_THAN          &kp GREATER_THAN   &kp UNDERSCORE  &kp EQUAL          &kp ASTERISK  &kp N1     &kp N2  &kp N3  &kp N0
+                                               &none              &sl 6           &trans             &none         &kp SPACE  &none
             >;
         };
 
@@ -58,10 +58,10 @@
 
             label = "Raise";
             bindings = <
-  &trans  &trans  &kp PG_UP      &trans  &trans       &none   &none    &none               &trans  &trans
-  &none   &none   &kp PAGE_DOWN  &none   &mkp LCLK    &none   &kp SQT  &none               &none   &kp LG(F)
-  &trans  &trans  &none          &trans  &trans       &none   &none    &kp LG(LEFT_SHIFT)  &trans  &none
-                  &trans         &trans  &trans       &trans  &sl 5    &trans
+  &trans           &trans       &kp PG_UP  &trans      &mkp LCLK      &none   &none    &none               &trans  &trans
+  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT    &none   &kp SQT  &none               &none   &kp LG(F)
+  &kp AMPERSAND    &trans       &none      &trans      &trans         &none   &none    &kp LG(LEFT_SHIFT)  &trans  &none
+                                &trans     &trans      &trans         &trans  &sl 5    &trans
             >;
         };
 
@@ -94,10 +94,10 @@
 
         layer_6 {
             bindings = <
-  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans        &trans  &trans  &trans  &trans  &bt BT_CLR
-  &trans        &trans        &trans        &trans  &sys_reset    &trans  &trans  &trans  &trans  &trans
-  &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans
-                              &sl 7         &trans  &sl 8         &trans  &trans  &trans
+  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans        &trans  &trans  &trans  &trans  &bt BT_CLR
+  &kp PAGE_UP    &trans        &trans        &trans  &sys_reset    &trans  &trans  &trans  &trans  &trans
+  &kp PAGE_DOWN  &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans
+                               &sl 7         &trans  &sl 8         &trans  &trans  &trans
             >;
         };
 
