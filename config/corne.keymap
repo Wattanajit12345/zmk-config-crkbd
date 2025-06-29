@@ -59,9 +59,9 @@
 
             label = "Raise";
             bindings = <
-  &trans           &trans       &none     &kp LC(L)   &kp LC(R)      &kp F5        &kp TAB         &kp UP_ARROW        &kp LS(ENTER)    &trans
+  &mkp MB1         &mkp MB2     &none     &kp LC(L)   &kp LC(R)      &kp F5        &kp TAB         &kp UP_ARROW        &kp LS(ENTER)    &trans
   &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp SQT       &kp LEFT_ARROW  &kp DOWN            &kp RIGHT_ARROW  &kp LG(F)
-  &kp AMPERSAND    &trans       &none     &trans      &trans         &kp KP_ENTER  &none           &kp LG(LEFT_SHIFT)  &trans           &mkp LCLK
+  &kp AMPERSAND    &trans       &none     &trans      &trans         &kp KP_ENTER  &none           &kp LG(LEFT_SHIFT)  &trans           &mkp MB1
                                 &sl 8     &mo 7       &sl 6          &trans        &sl 5           &trans
             >;
         };
