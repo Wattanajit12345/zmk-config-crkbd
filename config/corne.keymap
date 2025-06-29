@@ -77,10 +77,10 @@
 
         layer_4 {
             bindings = <
-  &kp BACKSPACE  &kp LG(X)          &kp LG(V)      &kp LG(C)       &kp LEFT_ALT    &kp PAGE_UP  &kp PAGE_DOWN  &none  &none  &none
-  &kp LG(A)      &kp LC(LS(ENTER))  &kp LG(ENTER)  &kp LEFT_SHIFT  &kp LG(Z)       &none        &none          &none  &none  &none
-  &kp LCTRL      &kp LG(T)          &kp LG(R)      &kp LG(W)       &none           &none        &none          &none  &none  &none
-                                    &trans         &trans          &trans          &none        &none          &none
+  &kp BACKSPACE  &kp LG(X)          &kp LG(V)      &kp LG(C)       &kp LEFT_ALT    &kp PAGE_UP  &kp PAGE_DOWN   &mmv MOVE_UP    &none            &none
+  &kp LG(A)      &kp LC(LS(ENTER))  &kp LG(ENTER)  &kp LEFT_SHIFT  &kp LG(Z)       &none        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+  &kp LCTRL      &kp LG(T)          &kp LG(R)      &kp LG(W)       &none           &none        &none           &none           &none            &none
+                                    &trans         &trans          &trans          &none        &none           &none
             >;
         };
 
