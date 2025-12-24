@@ -112,10 +112,10 @@
 
         layer_8 {
             bindings = <
-  &kp BACKSPACE  &kp LG(C)  &kp LG(V)  &kp LG(X)       &kp LG(Z)    &trans  &trans  &trans  &trans  &trans
-  &kp LG(A)      &trans     &trans     &kp LEFT_SHIFT  &trans       &trans  &trans  &trans  &trans  &trans
-  &trans         &trans     &trans     &trans          &trans       &trans  &trans  &trans  &trans  &trans
-                            &trans     &trans          &trans       &trans  &trans  &trans
+  &none      &kp LG(C)  &kp LG(V)  &kp LG(X)       &kp LG(Z)    &trans  &trans  &trans  &trans  &trans
+  &kp LG(A)  &trans     &trans     &kp LEFT_SHIFT  &trans       &trans  &trans  &trans  &trans  &trans
+  &trans     &trans     &trans     &trans          &trans       &trans  &trans  &trans  &trans  &trans
+                        &trans     &trans          &trans       &trans  &trans  &trans
             >;
         };
     };
